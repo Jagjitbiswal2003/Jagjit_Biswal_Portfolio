@@ -1,4 +1,7 @@
 import React from "react";
+
+import backgroundImage from '../assets/background.jpg';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -7,7 +10,7 @@ export default function Home() {
     <section
       className="h-screen flex items-center px-12 bg-cover bg-center relative"
       style={{
-        backgroundImage: "url(./src/assets/background.jpg)",
+        backgroundImage: `url(${backgroundImage})`,
       }}
     >
       {/* Overlay */}

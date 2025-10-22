@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+
+import profilePic from '../assets/Profilepic.jpg';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -38,7 +41,7 @@ export default function Sidebar() {
       >
         {/* Profile Section */}
         <img
-          src="./src/assets/Profilepic.jpg"
+          src={profilePic}
           alt="Profile Picture"
           className="w-37 h-37 rounded-full border-4 border-teal-400 mb-4"
         />
